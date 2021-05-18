@@ -6,10 +6,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements OnInit {
-
+ 
+ x : number;
+  
   constructor() { }
 
   ngOnInit() {
+    this.x = Math.floor(Math.random()*9999);
+    
   }
 
 }

@@ -6,12 +6,35 @@
     width: 150px;
     height: 150px;
     
+    animation: blink 2s;
+    animation-iteration-count: infinite;
+
+
   }
+  @keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.2;
+    }
+    100% {
+        opacity: 1;
+    }
+}
   p{
     text-align: center;
+    font-weight: bold;
+    color:rgb(0, 0, 0);
+    
 
+    animation: blink 2s;
+    animation-iteration-count: infinite;
   }
 }
 
 
   /** Styles to make the demo look better. */
+
+
+  

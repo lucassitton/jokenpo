@@ -16,6 +16,7 @@ export class CardComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+
     switch (this.type) {
       case CardType.PEDRA:
         this.name = "Pedra";
